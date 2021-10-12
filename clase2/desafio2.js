@@ -16,9 +16,9 @@ if ((texto == "Hola") || (texto == "HOLA")) {
     console.log("Pruebe con otro saludo");
 }
 
-let otroNum = prompt("Ingrese un numero");
+let numFinal = parseInt(prompt("Ingrese un numero"));
 
-let numFinal = parseInt(otroNum);
+
 
 if ((numFinal>10) && (numFinal<50)) {
     console.log("El numero es correcto");
