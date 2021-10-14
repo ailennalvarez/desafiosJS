@@ -18,8 +18,6 @@ if ((texto == "Hola") || (texto == "HOLA")) {
 
 let numFinal = parseInt(prompt("Ingrese un numero"));
 
-
-
 if ((numFinal>10) && (numFinal<50)) {
     console.log("El numero es correcto");
 } else {
