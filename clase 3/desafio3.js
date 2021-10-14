@@ -16,8 +16,8 @@ while (tex != "ESC") {
 
 
 
-let numero = parseInt(prompt("ingrese un numero "));
+let nu = parseInt(prompt("ingrese un numero "));
 
-for (let j=1; j <= numero; j++){
+for (let j=1; j <= nu; j++){
     console.log("HOLA");
 }
